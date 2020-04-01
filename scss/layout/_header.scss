@@ -1,0 +1,121 @@
+$headerColor :#264250;
+$sendColor : #d2802c;
+$colorY : #ffd366;
+$aliceblue : aliceblue;
+
+header{    
+    background: $headerColor;
+    display: flow-root;        
+        
+}
+.BMIhome{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    img{        
+        float: left;
+        padding: 1em 5em 3em 5em;
+    }
+}
+.BMIdata{     
+    color: $aliceblue;
+    float: left;
+    width: 35%;
+    letter-spacing: 3px;
+    label{
+        color: $colorY;
+    }
+    input{
+        width: 85%;
+        display: block;
+        margin: 10px 0;
+        padding: 10px 0;
+        border: 3px solid $colorY;
+        border-radius: 10px;
+    }    
+}
+
+// button
+.btnArea{
+    float: left;   
+    position: relative; 
+}
+.newBtn,
+.send{
+    margin:1em 3em;
+    letter-spacing: 2px;
+    border-radius: 50%;    
+    font-family:Microsoft JhengHei;
+}
+.send{    
+    padding: 3em 2em;    
+    border: 0;
+    font-size: 18px;
+    background: $colorY;    
+    cursor: pointer;
+    &:hover{
+        background: $sendColor;
+        -webkit-box-shadow: 0 0 5px $colorY;
+        box-shadow: 0 0 15px $colorY;
+    }
+}
+.newBtn{
+    display: none;
+}
+.open{
+    display: block;
+}
+hr
+,.BMI_range
+,.BMI_title,
+.BMI_value,
+a,
+.icon{
+    position: absolute;
+}
+.newBtn{    
+    padding: 3.6em;    
+    background: #4e525666;
+    color: $aliceblue;
+    hr{
+        width: 30%;
+        border: 1px solid;
+        top: 72px;
+        left: 79px;
+    }
+    .BMI_range{
+        left: 87px;
+        top: 40px;
+        font-size: 24px;
+    }
+    .BMI_title{
+        font-size: 12px;
+        bottom: 50px;
+        left: 62px;
+        padding-bottom: 5px;
+    }        
+    .BMI_value{
+        font-size: 18px;;
+        bottom: 45px;
+        right: 70px;        
+    }
+    a{
+        width: 30px;
+        border-radius: 50%;
+        height: 30px;
+        left: 42px;
+        top: 36px;
+        box-shadow: 0 0 2px #e0d6d6;
+        transition: all 2s;
+        &:hover{
+            box-shadow: 0 0 5px 2px inset #fff;
+            transform: rotate(-180deg);
+            transition: all 2s;
+        }
+    }
+    .icon{
+        width: 15px;
+        left: 7px;
+        top: 5px;
+        padding: 0;
+    }
+}

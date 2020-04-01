@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI 不敢面對的事實</title>
+    <link rel="shortcut icon" href="imgs/BMIicon.png">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <div class="container BMIhome">
+            <img src="../Chukuohua_BMIwork/imgs/BMICLogo.png" alt="">
+            <div class="BMIdata">
+                <label for="height">身高cm</label>
+                <input type="text" name="height" id="height" class="height" onkeyup="return Number(this,value)" placeholder="請輸入身高">
+                <label for="weight">體重kg</label>
+                <input type="text" name="weight" id="weight" class="weight" onkeyup="return Number(this,value)" placeholder="請輸入體重">
+                <p class="error"></p>
+            </div>            
+            <div class="btnArea">
+                <input class="send" type="button" value="看結果">
+                <div class="newBtn"></div>
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+    <div class="BMI_History">
+        <div class="container">
+            <h3>BMI 紀錄</h3>
+            <ul class="list">                
+            </ul>
+            <div class="delete_box">
+                <input type="button" id="deleteAmi" class="deleteData" value="清除紀錄">
+                <div class="bor_bot"></div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="container">
+            <img src="imgs/BMI-logo.JPG" alt="">
+        </div>
+    </footer>
+    <script src="js/all.js"></script>
+</body>
+</html>

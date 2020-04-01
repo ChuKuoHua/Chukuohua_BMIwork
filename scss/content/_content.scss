@@ -1,0 +1,74 @@
+$bgColor :#f7f2f2;
+$ColorW :#ffffff;
+$ColorR :#e60d0d;
+$ft-w:bold;
+
+.BMI_History{
+    padding: 2em 0;
+    background: $bgColor;
+   h3{
+       text-align: center;
+       font-size: 28px;
+   }
+   .deleteData{
+        border: 0;
+        display: block;
+        padding: 5px;
+        letter-spacing: 3px;
+        cursor: pointer;        
+        background: $bgColor;
+        margin: 1em auto;
+        font-family:Microsoft JhengHei;
+        font-size: 16px;
+        
+   }
+}
+.deleteData,.error{
+    font-weight: $ft-w;
+    color: $ColorR;
+}
+.error{
+    padding: 5px 0;    
+}
+.delete_box{
+    position: relative;
+}
+.bor_bot{
+    border-bottom: 1px solid $ColorR;
+    width: 0px;
+    top: 28px;
+    left: 46%;
+    height: 1px;
+    width: 0;
+    transition: all 3s;
+    position: absolute;
+}
+.list{
+    margin-top: 2em;
+    li{
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: $ColorW;
+        box-shadow: 0 0 2px #d6d6d6;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    img{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+}
+.BMI_list{
+    margin-left: 10px;
+    width: 100%;
+    font-size: 18px;
+    td{
+        width: 19%;
+        span{
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+    }
+}

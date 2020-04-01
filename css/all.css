@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: Microsoft JhengHei; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+.clearfix {
+  clear: both; }
+
+.fat {
+  border-left: 3px solid red; }
+
+.heavy {
+  border-left: 3px solid #f34b09; }
+
+.good {
+  border-left: 3px solid #13d434; }
+
+.light {
+  border-left: 3px solid #13cdd4; }
+
+.fa-trash-alt {
+  color: aquamarine; }
+
+header {
+  background: #264250;
+  display: flow-root; }
+
+.BMIhome {
+  margin-top: 2em;
+  margin-bottom: 1em; }
+  .BMIhome img {
+    float: left;
+    padding: 1em 5em 3em 5em; }
+
+.BMIdata {
+  color: aliceblue;
+  float: left;
+  width: 35%;
+  letter-spacing: 3px; }
+  .BMIdata label {
+    color: #ffd366; }
+  .BMIdata input {
+    width: 85%;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 3px solid #ffd366;
+    border-radius: 10px; }
+
+.btnArea {
+  float: left;
+  position: relative; }
+
+.newBtn,
+.send {
+  margin: 1em 3em;
+  letter-spacing: 2px;
+  border-radius: 50%;
+  font-family: Microsoft JhengHei; }
+
+.send {
+  padding: 3em 2em;
+  border: 0;
+  font-size: 18px;
+  background: #ffd366;
+  cursor: pointer; }
+  .send:hover {
+    background: #d2802c;
+    -webkit-box-shadow: 0 0 5px #ffd366;
+    box-shadow: 0 0 15px #ffd366; }
+
+.newBtn {
+  display: none; }
+
+.open {
+  display: block; }
+
+hr
+, .BMI_range
+, .BMI_title,
+.BMI_value,
+a,
+.icon {
+  position: absolute; }
+
+.newBtn {
+  padding: 3.6em;
+  background: #4e525666;
+  color: aliceblue; }
+  .newBtn hr {
+    width: 30%;
+    border: 1px solid;
+    top: 72px;
+    left: 79px; }
+  .newBtn .BMI_range {
+    left: 87px;
+    top: 40px;
+    font-size: 24px; }
+  .newBtn .BMI_title {
+    font-size: 12px;
+    bottom: 50px;
+    left: 62px;
+    padding-bottom: 5px; }
+  .newBtn .BMI_value {
+    font-size: 18px;
+    bottom: 45px;
+    right: 70px; }
+  .newBtn a {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    left: 42px;
+    top: 36px;
+    -webkit-box-shadow: 0 0 2px #e0d6d6;
+    box-shadow: 0 0 2px #e0d6d6;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s; }
+    .newBtn a:hover {
+      -webkit-box-shadow: 0 0 5px 2px inset #fff;
+      box-shadow: 0 0 5px 2px inset #fff;
+      -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+      -webkit-transition: all 2s;
+      -o-transition: all 2s;
+      transition: all 2s; }
+  .newBtn .icon {
+    width: 15px;
+    left: 7px;
+    top: 5px;
+    padding: 0; }
+
+footer {
+  background: #ffd168; }
+  footer img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+
+.BMI_History {
+  padding: 2em 0;
+  background: #f7f2f2; }
+  .BMI_History h3 {
+    text-align: center;
+    font-size: 28px; }
+  .BMI_History .deleteData {
+    border: 0;
+    display: block;
+    padding: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background: #f7f2f2;
+    margin: 1em auto;
+    font-family: Microsoft JhengHei;
+    font-size: 16px; }
+
+.deleteData, .error {
+  font-weight: bold;
+  color: #e60d0d; }
+
+.error {
+  padding: 5px 0; }
+
+.delete_box {
+  position: relative; }
+
+.bor_bot {
+  border-bottom: 1px solid #e60d0d;
+  width: 0px;
+  top: 28px;
+  left: 46%;
+  height: 1px;
+  width: 0;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+  position: absolute; }
+
+.list {
+  margin-top: 2em; }
+  .list li {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 2px #d6d6d6;
+    box-shadow: 0 0 2px #d6d6d6;
+    display: block;
+    margin: 0 auto 10px auto; }
+  .list img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer; }
+
+.BMI_list {
+  margin-left: 10px;
+  width: 100%;
+  font-size: 18px; }
+  .BMI_list td {
+    width: 19%; }
+    .BMI_list td span {
+      font-size: 12px;
+      letter-spacing: 2px; }
